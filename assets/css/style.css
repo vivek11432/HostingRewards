@@ -1094,22 +1094,41 @@ input:-ms-input-placeholder {
     .port-1 {
         margin-top: 50px;
     }
+
     .port-2 {
         margin-top: 90px;
     }
+
     .port-3 {
         margin-top: 52px;
     }
+
     .port-4 {
         margin-top: 50px;
     }
-    .port-3-img{
+
+    .port-3-img {
         height: 260px;
     }
-    .card-img-top{
+
+    .card-img-top {
         height: 270px;
         width: auto;
         margin: 0 auto;
+    }
+
+    #contact_us_sticker{
+        display: inline-block;
+        position: fixed;
+        top: 98px;
+        z-index: 100;
+        color: black;
+        right: -27px;
+        padding: 12px;
+        transform: rotate(-90deg);
+        cursor: pointer;
+        background-color: #2ec0d5;
+        color: white;
     }
 }
 .card-text{
@@ -1247,4 +1266,9 @@ fieldset {
 #video{
     background: url(../images/color_background_surface_solid.jpg) repeat center center !important;
     text-align: center;
+}
+@media only screen and (max-width: 767px) {
+    #contact_us_sticker {
+        display: none;
+    }
 }
