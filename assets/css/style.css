@@ -1240,3 +1240,11 @@ fieldset {
     padding-right: 20px;
     padding-top: 15px;
 }
+.video-iframe{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#video{
+    background: url(../images/color_background_surface_solid.jpg) repeat center center !important;
+    text-align: center;
+}
